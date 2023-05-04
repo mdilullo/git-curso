@@ -1,0 +1,314 @@
+    PID TTY      STAT   TIME COMMAND
+      2 ?        S      0:00 [kthreadd]
+      3 ?        I<     0:00  \_ [rcu_gp]
+      4 ?        I<     0:00  \_ [rcu_par_gp]
+      5 ?        I<     0:00  \_ [slub_flushwq]
+      6 ?        I<     0:00  \_ [netns]
+     10 ?        I<     0:00  \_ [mm_percpu_wq]
+     11 ?        S      0:00  \_ [rcu_tasks_rude_]
+     12 ?        S      0:00  \_ [rcu_tasks_trace]
+     13 ?        S      0:12  \_ [ksoftirqd/0]
+     14 ?        I      9:05  \_ [rcu_sched]
+     15 ?        S      0:01  \_ [migration/0]
+     16 ?        S      0:00  \_ [idle_inject/0]
+     18 ?        S      0:00  \_ [cpuhp/0]
+     19 ?        S      0:00  \_ [cpuhp/1]
+     20 ?        S      0:00  \_ [idle_inject/1]
+     21 ?        S      0:01  \_ [migration/1]
+     22 ?        S     31:36  \_ [ksoftirqd/1]
+     24 ?        I<     0:00  \_ [kworker/1:0H-events_highpri]
+     25 ?        S      0:00  \_ [cpuhp/2]
+     26 ?        S      0:00  \_ [idle_inject/2]
+     27 ?        S      0:01  \_ [migration/2]
+     28 ?        S      0:05  \_ [ksoftirqd/2]
+     30 ?        I<     0:00  \_ [kworker/2:0H-events_highpri]
+     31 ?        S      0:00  \_ [cpuhp/3]
+     32 ?        S      0:00  \_ [idle_inject/3]
+     33 ?        S      0:01  \_ [migration/3]
+     34 ?        S      0:13  \_ [ksoftirqd/3]
+     36 ?        I<     0:00  \_ [kworker/3:0H-events_highpri]
+     37 ?        S      0:00  \_ [kdevtmpfs]
+     38 ?        I<     0:00  \_ [inet_frag_wq]
+     39 ?        S      0:00  \_ [kauditd]
+     40 ?        S      0:00  \_ [khungtaskd]
+     41 ?        S      0:00  \_ [oom_reaper]
+     42 ?        I<     0:00  \_ [writeback]
+     43 ?        S      1:28  \_ [kcompactd0]
+     44 ?        SN     0:00  \_ [ksmd]
+     45 ?        SN     0:03  \_ [khugepaged]
+     92 ?        I<     0:00  \_ [kintegrityd]
+     93 ?        I<     0:00  \_ [kblockd]
+     94 ?        I<     0:00  \_ [blkcg_punt_bio]
+     96 ?        I<     0:00  \_ [tpm_dev_wq]
+     97 ?        I<     0:00  \_ [ata_sff]
+     98 ?        I<     0:00  \_ [md]
+     99 ?        I<     0:00  \_ [edac-poller]
+    100 ?        I<     0:00  \_ [devfreq_wq]
+    101 ?        S      0:00  \_ [watchdogd]
+    103 ?        I<     0:44  \_ [kworker/0:1H-events_highpri]
+    105 ?        S      0:04  \_ [kswapd0]
+    106 ?        S      0:00  \_ [ecryptfs-kthrea]
+    109 ?        I<     0:00  \_ [kthrotld]
+    110 ?        I<     0:00  \_ [acpi_thermal_pm]
+    113 ?        I<     0:00  \_ [vfio-irqfd-clea]
+    114 ?        I<     0:00  \_ [mld]
+    115 ?        I<     0:00  \_ [ipv6_addrconf]
+    124 ?        I<     0:00  \_ [kstrp]
+    127 ?        I<     0:00  \_ [zswap-shrink]
+    133 ?        I<     0:00  \_ [charger_manager]
+    181 ?        I<     0:48  \_ [kworker/1:1H-events_highpri]
+    185 ?        I<     0:42  \_ [kworker/2:1H-events_highpri]
+    188 ?        S      0:00  \_ [scsi_eh_0]
+    189 ?        I<     0:00  \_ [scsi_tmf_0]
+    190 ?        S      0:00  \_ [scsi_eh_1]
+    191 ?        I<     0:00  \_ [scsi_tmf_1]
+    198 ?        I<     0:32  \_ [kworker/3:1H-events_highpri]
+    218 ?        S      0:32  \_ [jbd2/sda1-8]
+    219 ?        I<     0:00  \_ [ext4-rsv-conver]
+    552 ?        I<     0:00  \_ [rpciod]
+    554 ?        I<     0:00  \_ [xprtiod]
+    562 ?        I<     0:00  \_ [ktpacpid]
+    581 ?        S      0:00  \_ [irq/128-mei_me]
+    589 ?        I<     0:00  \_ [cfg80211]
+    639 ?        S    108:29  \_ [irq/129-iwlwifi]
+    686 ?        I<     0:00  \_ [cryptd]
+    694 ?        S      0:00  \_ [card0-crtc0]
+    695 ?        S      0:00  \_ [card0-crtc1]
+    696 ?        S      0:00  \_ [card0-crtc2]
+   1334 ?        I<     0:00  \_ [ipmi-msghandler]
+   2002 ?        I<     0:00  \_ [iprt-VBoxWQueue]
+   2004 ?        S      0:00  \_ [iprt-VBoxTscThr]
+   2826 ?        S<     0:00  \_ [krfcommd]
+ 149311 ?        I<     0:00  \_ [kworker/0:2H-events_highpri]
+ 212181 ?        I      0:03  \_ [kworker/3:2-events]
+ 213920 ?        D<     0:09  \_ [kworker/u9:0+i915_flip]
+ 214449 ?        I      0:02  \_ [kworker/0:0-events]
+ 214904 ?        I      0:39  \_ [kworker/1:2-events]
+ 214905 ?        I      0:03  \_ [kworker/2:0-events]
+ 214915 ?        I<     0:08  \_ [kworker/u9:3-rb_allocator]
+ 215408 ?        I      0:00  \_ [kworker/u8:2-events_unbound]
+ 215514 ?        I      0:01  \_ [kworker/3:1-events]
+ 215711 ?        I      0:00  \_ [kworker/u8:1-flush-8:0]
+ 215838 ?        I      0:00  \_ [kworker/2:2]
+ 215901 ?        I      0:00  \_ [kworker/0:2-events]
+ 215903 ?        I<     0:00  \_ [kworker/u9:2-i915_flip]
+ 215991 ?        I      0:00  \_ [kworker/u8:3-flush-8:0]
+ 216244 ?        I      0:00  \_ [kworker/1:0-events]
+ 216637 ?        I      0:00  \_ [kworker/3:0-events]
+ 216639 ?        I      0:00  \_ [kworker/1:1-events]
+ 216780 ?        I      0:00  \_ [kworker/u8:0-flush-8:0]
+ 216785 ?        I      0:00  \_ [kworker/u8:4-i915]
+ 216858 ?        I<     0:00  \_ [kworker/u9:1]
+      1 ?        Ss     0:37 /lib/systemd/systemd splash --system --deserialize 30
+    533 ?        Ss     0:00 /sbin/rpcbind -f -w
+   1200 ?        Ss     0:51 /usr/sbin/acpid
+   1203 ?        Ss     0:18 avahi-daemon: running [chelos.local]
+   1257 ?        S      0:00  \_ avahi-daemon: chroot helper
+   1206 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
+   1207 ?        Ss     0:54 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1209 ?        Ssl    2:03 /usr/sbin/NetworkManager --no-daemon
+   1216 ?        Ssl    0:18 /usr/sbin/irqbalance --foreground
+   1220 ?        Ss     0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+   1223 ?        Ssl    0:05 /usr/libexec/polkitd --no-debug
+   1225 ?        Ssl    0:00 /usr/libexec/power-profiles-daemon
+   1227 ?        Sl     0:08 /usr/lib/epson-backend/ecbd -p /var/run/ecbd.pid
+   1231 ?        Ssl    0:04 /usr/sbin/rsyslogd -n -iNONE
+   1232 ?        Ssl    1:05 /usr/lib/snapd/snapd
+   1235 ?        Ssl    0:10 /usr/libexec/accounts-daemon
+   1239 ?        Ss     0:00 /usr/sbin/cron -f -P
+   1243 ?        Ssl    0:00 /usr/libexec/switcheroo-control
+   1247 ?        Ss     0:06 /lib/systemd/systemd-logind
+   1248 ?        Ssl    0:23 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+   1250 ?        Ssl    0:41 /usr/libexec/udisks2/udisksd
+   1252 ?        Ss     0:03 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+   1256 ?        Ss     0:00 /usr/sbin/atd -f
+   1290 ?        Ssl    0:00 /usr/sbin/ModemManager
+   1297 ?        Ss     0:20 php-fpm: master process (/etc/php/8.1/fpm/php-fpm.conf)
+   1408 ?        S      0:00  \_ php-fpm: pool www
+   1409 ?        S      0:00  \_ php-fpm: pool www
+   1304 ?        Ssl    0:10 /usr/bin/anydesk --service
+   1309 ?        Ssl    3:46 /usr/bin/containerd
+   1318 ?        Ss     0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+   1347 ?        Ssl    0:00 /usr/sbin/gdm3
+   2617 ?        Sl     0:00  \_ gdm-session-worker [pam/gdm-password]
+   2712 tty2     Ssl+   0:00      \_ /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+   2717 tty2     Sl+    0:00          \_ /usr/libexec/gnome-session-binary --session=ubuntu
+   1357 ?        Ssl    0:00 /usr/libexec/colord
+   1369 ?        Ss     0:00 /usr/bin/tor --defaults-torrc /usr/share/tor/tor-service-defaults-torrc -f /etc/tor/torrc --RunAsDaemon 0
+   1404 ?        Ssl    0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+   1487 ?        SNsl   0:03 /usr/libexec/rtkit-daemon
+   1574 ?        Ssl    0:16 /usr/libexec/upowerd
+   1626 ?        Ssl    0:19 /usr/libexec/packagekitd
+   1972 ?        Ss     0:04 /usr/bin/freshclam -d --foreground=true
+   1991 ?        Ss     0:00 /usr/sbin/kerneloops --test
+   1999 ?        Ss     0:00 /usr/sbin/kerneloops
+   2007 ?        Ss     0:00 /usr/sbin/xl2tpd
+   2629 ?        Ss     0:02 /lib/systemd/systemd --user
+   2630 ?        S      0:00  \_ (sd-pam)
+   2636 ?        S<sl   0:00  \_ /usr/bin/pipewire
+   2637 ?        Ssl    0:00  \_ /usr/bin/pipewire-media-session
+   2638 ?        S<sl   8:14  \_ /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   2653 ?        Ss     0:06  \_ /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   2663 ?        Ssl    0:00  \_ /usr/libexec/gvfsd
+   2969 ?        Sl     0:00  |   \_ /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+  87452 ?        Sl     0:00  |   \_ /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+  87468 ?        Sl     0:00  |   \_ /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+   2673 ?        Sl     0:00  \_ /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   2674 ?        Ssl    0:00  \_ /usr/libexec/xdg-document-portal
+   2692 ?        Ss     0:00  |   \_ fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   2683 ?        Ssl    0:00  \_ /usr/libexec/xdg-permission-store
+   2715 ?        SNsl   0:29  \_ /usr/libexec/tracker-miner-fs-3
+   2759 ?        Ssl    0:00  \_ /usr/libexec/gnome-session-ctl --monitor
+   2772 ?        Ssl    0:00  \_ /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   2802 ?        Sl     0:00  |   \_ /usr/libexec/at-spi-bus-launcher --launch-immediately
+   2810 ?        S      0:00  |   |   \_ /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+   3144 ?        Sl     0:13  |   \_ /usr/bin/python3 /usr/bin/caffeine
+   3146 ?        Sl     0:02  |   \_ /usr/libexec/evolution-data-server/evolution-alarm-notify
+   3164 ?        Sl     0:47  |   \_ /home/mdilullo/bin/Telegram/Telegram -workdir /home/mdilullo/.local/share/TelegramDesktop/ -autostart
+   3684 ?        S      0:00  |   |   \_ sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+   3686 ?        Sl     0:00  |   |       \_ /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+   3180 ?        Sl     0:00  |   \_ /usr/bin/python3 /usr/bin/caffeine-indicator
+   3191 ?        Sl     0:00  |   \_ /usr/libexec/gsd-disk-utility-notify
+   4930 ?        Sl     0:07  |   \_ update-notifier
+   2800 ?        Ssl  341:46  \_ /usr/bin/gnome-shell
+   3428 ?        Sl    76:51  |   \_ /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.6WV631 -listen 4 -listen 5 -displayfd 6 -initfd 7
+   3443 ?        Sl     0:13  |   \_ gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 1 -D 1920:0:1920:1080:1:0:0:0:0:0 -D 0:0:1920:1080:1:27:0:74:0:1
+   5032 ?        S      0:00  |   \_ /bin/bash /usr/bin/brave-browser-stable
+   5037 ?        S      0:00  |   |   \_ cat
+   5038 ?        S      0:01  |   |   \_ cat
+   5039 ?        SLl  158:24  |   |   \_ /opt/brave.com/brave/brave
+   5049 ?        S      0:00  |   |       \_ /opt/brave.com/brave/brave --type=zygote --no-zygote-sandbox --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --change-stack-guard-on-fork=enable
+   5073 ?        Sl   399:38  |   |       |   \_ /opt/brave.com/brave/brave --type=gpu-process --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5050 ?        S      0:00  |   |       \_ /opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --change-stack-guard-on-fork=enable
+   5052 ?        S      0:03  |   |       |   \_ /opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --change-stack-guard-on-fork=enable
+   5088 ?        Sl     0:58  |   |       |       \_ /opt/brave.com/brave/brave --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5127 ?        Sl    32:11  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --first-renderer-process --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=105960916 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5128 ?        Sl     1:04  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --extension-process --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=105962547 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5146 ?        Sl   221:47  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=12 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=106225586 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5185 ?        Sl     6:32  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --extension-process --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=106405397 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5220 ?        Sl    20:32  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --extension-process --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=106517574 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5262 ?        Sl     1:10  |   |       |       \_ /opt/brave.com/brave/brave --type=utility --utility-sub-type=bat_ads.mojom.BatAdsService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5365 ?        Sl     1:34  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=14 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=116698000 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5407 ?        Sl     0:12  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=15 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=131022443 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5421 ?        Sl     0:03  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=28 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=132146764 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5504 ?        Sl    20:05  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=33 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=177514959 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5516 ?        Sl     6:56  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=34 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=177669138 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5530 ?        Sl     3:05  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=35 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=179183368 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5560 ?        Sl    25:58  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=38 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=181114942 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5678 ?        Sl   2354:11  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=46 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=312600918 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   9468 ?        Sl    15:25  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=125 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=6037486589 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+  62422 ?        Sl     0:12  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --extension-process --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1060 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=113311805270 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+  87832 ?        Sl     2:52  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1263 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=178805495623 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 165407 ?        Sl    12:46  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1744 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=352865377813 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 182403 ?        Sl    21:36  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1996 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=389282716082 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 209472 ?        Sl     0:00  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2263 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=458286753773 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216003 ?        Sl     3:28  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2301 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=476368215668 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216105 ?        Sl     0:02  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2308 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=476386587685 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216245 ?        Sl     0:01  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2310 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=476684041408 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216278 ?        Sl     0:00  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2312 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=476692220280 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216349 ?        Sl     0:02  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2314 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=476889275358 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216381 ?        Sl     0:00  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2316 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=476892984728 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216395 ?        Sl     0:01  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2317 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=476894848754 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216407 ?        Sl     0:09  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2318 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=476895211450 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216605 ?        Sl     0:00  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2323 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=477072905930 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216678 ?        Sl     0:01  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2325 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=477165598138 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216693 ?        Sl     0:00  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --extension-process --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2326 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=477165948885 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216717 ?        Sl     0:03  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --pdf-renderer --lang=en-US --js-flags=--jitless --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2328 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=477166188953 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+ 216878 ?        Sl     0:00  |   |       |       \_ /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=5929271247546227947 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=2329 --time-ticks-at-unix-epoch=-1682684407998520 --launch-time-ticks=477330993123 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5078 ?        Sl   329:46  |   |       \_ /opt/brave.com/brave/brave --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5106 ?        Sl     0:54  |   |       \_ /opt/brave.com/brave/brave --type=utility --utility-sub-type=bat_ledger.mojom.BatLedgerService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+   5545 ?        Sl     0:45  |   |       \_ /opt/brave.com/brave/brave --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=5041 --enable-crash-reporter=85332f46-dacd-4967-a70c-4dcd57d30ab3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12904466912808497973,12069606092935599838,131072
+  86242 ?        Sl     0:04  |   \_ xpad
+ 182826 ?        Sl    16:48  |   \_ doublecmd
+ 209197 ?        Sl     0:00  |   \_ gnome-calculator
+   2816 ?        Ssl    1:08  \_ /usr/libexec/gvfs-udisks2-volume-monitor
+   2828 ?        Ssl    0:00  \_ /usr/libexec/gvfs-gphoto2-volume-monitor
+   2832 ?        Ssl    0:11  \_ /usr/libexec/gvfs-afc-volume-monitor
+   2837 ?        Ssl    0:00  \_ /usr/libexec/gvfs-mtp-volume-monitor
+   2847 ?        Ssl    0:00  \_ /usr/libexec/gvfs-goa-volume-monitor
+   2852 ?        SLl    0:00  \_ /usr/libexec/goa-daemon
+   2870 ?        Sl     0:00  \_ /usr/libexec/goa-identity-service
+   2909 ?        Sl     0:01  \_ /usr/libexec/gnome-shell-calendar-server
+   2915 ?        Ssl    0:02  \_ /usr/libexec/evolution-source-registry
+   2921 ?        Ssl    0:00  \_ /usr/libexec/dconf-service
+   2924 ?        Ssl    0:00  \_ /usr/libexec/gvfsd-metadata
+   2936 ?        Ssl    0:06  \_ /usr/libexec/evolution-calendar-factory
+   2948 ?        Ssl    0:00  \_ /usr/libexec/evolution-addressbook-factory
+   3002 ?        Sl     0:01  \_ /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   3004 ?        Sl     0:00  \_ /usr/libexec/at-spi2-registryd --use-gnome-session
+   3015 ?        Ss     0:00  \_ sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+   3049 ?        Rl     1:12  |   \_ /usr/bin/ibus-daemon --panel disable
+   3101 ?        Sl     0:00  |       \_ /usr/libexec/ibus-dconf
+   3104 ?        Sl     0:21  |       \_ /usr/libexec/ibus-extension-gtk3
+   3341 ?        Sl     0:15  |       \_ /usr/libexec/ibus-engine-simple
+   3017 ?        Ssl    0:00  \_ /usr/libexec/gsd-a11y-settings
+   3019 ?        Ssl    0:01  \_ /usr/libexec/gsd-color
+   3021 ?        Ssl    0:00  \_ /usr/libexec/gsd-datetime
+   3022 ?        Ssl    0:12  \_ /usr/libexec/gsd-housekeeping
+   3024 ?        Ssl    0:00  \_ /usr/libexec/gsd-keyboard
+   3026 ?        Ssl    0:01  \_ /usr/libexec/gsd-media-keys
+   3030 ?        Ssl    0:01  \_ /usr/libexec/gsd-power
+   3036 ?        Ssl    0:00  \_ /usr/libexec/gsd-print-notifications
+   3037 ?        Ssl    0:00  \_ /usr/libexec/gsd-rfkill
+   3038 ?        Ssl    0:00  \_ /usr/libexec/gsd-screensaver-proxy
+   3041 ?        Ssl    0:19  \_ /usr/libexec/gsd-sharing
+   3043 ?        Ssl    0:00  \_ /usr/libexec/gsd-smartcard
+   3044 ?        Ssl    0:00  \_ /usr/libexec/gsd-sound
+   3050 ?        Ssl    0:00  \_ /usr/libexec/gsd-wacom
+   3111 ?        Sl     0:00  \_ /usr/libexec/ibus-portal
+   3130 ?        Sl     0:00  \_ /usr/libexec/gsd-printer
+   3204 ?        Sl     0:42  \_ /snap/snap-store/638/usr/bin/snap-store --gapplication-service
+   3243 ?        Ssl    0:06  \_ /usr/libexec/xdg-desktop-portal
+   3272 ?        Ssl    1:28  \_ /usr/libexec/xdg-desktop-portal-gnome
+   3415 ?        Sl     0:00  \_ /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+   3452 ?        Ssl    0:00  \_ /usr/libexec/xdg-desktop-portal-gtk
+   3500 ?        Ssl    0:00  \_ /usr/libexec/gsd-xsettings
+   3604 ?        Sl     0:00  \_ /usr/libexec/ibus-x11
+   4996 ?        S      0:06  \_ perl -e  use strict; use warnings; use Encode qw(decode); use IO::File; use Net::DBus; use X11::Protocol;  my ($window_id, $screensaver_file) = @ARGV;  # Find window name to pass to session manager. my $x = X11::Protocol->new(); my $named_window_id = hex($window_id); my $window_name; while (1) {   eval { ($window_name) = $x->GetProperty($named_window_id, $x->atom("WM_NAME"), ????   $x->atom("STRING"), 0, 1000, 0); };   $window_name = "?" if $@;   last if defined($window_name) && $window_name ne "";   (undef, $named_window_id) = $x->QueryTree($named_window_id);   if (!defined($named_window_id)) {     $window_name = "?";     last;   } }  # Replace any invalid unicode characters with U+FFFD, so we dont crash when we # pass them over to D-Bus $window_name = decode("utf8", $window_name, Encode::FB_DEFAULT);  # Inhibit idle detection (flags = 8) with window name and ID. # We have no reason so just send the window name again. my $bus = Net::DBus->session(); my $sm_svc = $bus->get_service("org.gnome.SessionManager"); my $sm = $sm_svc->get_object("/org/gnome/SessionManager", ???     "org.gnome.SessionManager"); $sm->Inhibit($window_name, hex($window_id), $window_name, 8);  # Wait until removed from the status file. while (1) {   sleep(10);   my $status = new IO::File($screensaver_file, "r")     or exit 0;   my $found;   while (<$status>) {     if (/^$window_id:/) {       $found = 1;       last;     }   }   exit 0 unless $found; }  0xa00000 /tmp/xdg-screensaver-mdilullo--0
+   4999 ?        S      0:00  \_ /bin/sh /usr/bin/xdg-screensaver suspend 0xa00000
+   5003 ?        S      0:00  |   \_ /usr/bin/xprop -id 0xa00000 -spy
+   5041 ?        Sl     0:00  \_ /opt/brave.com/brave/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/mdilullo/.config/BraveSoftware/Brave-Browser/Crash Reports --metrics-dir=/home/mdilullo/.config/BraveSoftware/Brave-Browser --url=https://cr.brave.com --annotation=lsb-release=Ubuntu 22.04.2 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=112.1.50.114 --initial-client-fd=5 --shared-client-connection
+   5043 ?        Sl     0:00  \_ /opt/brave.com/brave/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/mdilullo/.config/BraveSoftware/Brave-Browser/Crash Reports --url=https://cr.brave.com --annotation=lsb-release=Ubuntu 22.04.2 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=112.1.50.114 --initial-client-fd=4 --shared-client-connection
+   5911 ?        Ss     0:00  \_ /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+   6119 ?        Sl     0:00  |   \_ /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+  86134 ?        Sl     0:01  \_ /usr/bin/gnome-calendar --gapplication-service
+  86136 ?        SLl    0:00  \_ /usr/bin/seahorse --gapplication-service
+  89992 ?        S      0:00  \_ /bin/bash /usr/bin/atom
+  89994 ?        Sl    22:26  |   \_ /usr/share/atom/atom --executed-from=/home/mdilullo --pid=89977
+  89997 ?        S      0:00  |       \_ /usr/share/atom/atom --type=zygote --no-zygote-sandbox
+  90027 ?        Sl     0:06  |       |   \_ /usr/share/atom/atom --type=gpu-process --field-trial-handle=4510827386085724876,3647667715984804056,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --gpu-preferences=MAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA= --shared-files
+  89998 ?        S      0:00  |       \_ /usr/share/atom/atom --type=zygote
+  90000 ?        S      0:00  |       |   \_ /usr/share/atom/atom --type=zygote
+  90036 ?        Sl     0:07  |       \_ /usr/share/atom/atom --type=utility --field-trial-handle=4510827386085724876,3647667715984804056,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --enable-experimental-web-platform-features --enable-crash-reporter=4be831ba-217e-478b-ae9a-5b57857266c4,no_channel --global-crash-keys=4be831ba-217e-478b-ae9a-5b57857266c4,no_channel,_companyName=GitHub,_productName=Atom,_version=1.60.0 --shared-files=v8_snapshot_data:100
+  90061 ?        SLl    2:56  |       \_ /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --field-trial-handle=4510827386085724876,3647667715984804056,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=4be831ba-217e-478b-ae9a-5b57857266c4,no_channel --global-crash-keys=4be831ba-217e-478b-ae9a-5b57857266c4,no_channel,_companyName=GitHub,_productName=Atom,_version=1.60.0 --app-path=/usr/share/atom/resources/app.asar --node-integration --node-integration-in-worker --webview-tag --no-sandbox --no-zygote --enable-remote-module --background-color=#fff --disable-blink-features=Auxclick --enable-spellcheck --enable-websql --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100
+  90158 ?        Sl     0:01  |       \_ /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --field-trial-handle=4510827386085724876,3647667715984804056,131072 --enable-features=WebComponentsV0Enabled --disable-features=SpareRendererForSitePerProcess --lang=en-US --enable-crash-reporter=4be831ba-217e-478b-ae9a-5b57857266c4,no_channel --global-crash-keys=4be831ba-217e-478b-ae9a-5b57857266c4,no_channel,_companyName=GitHub,_productName=Atom,_version=1.60.0 --app-path=/usr/share/atom/resources/app.asar --node-integration --no-sandbox --no-zygote --enable-remote-module --background-color=#fff --enable-spellcheck --enable-websql --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_snapshot_data:100
+  91591 ?        Ssl    4:22  \_ /usr/libexec/gnome-terminal-server
+  91609 pts/0    Ss     0:00  |   \_ -bash
+ 183724 pts/0    S+     0:06  |   |   \_ ssh sysadmin@190.224.163.196
+  96864 pts/1    Ss+    0:00  |   \_ -bash
+ 183954 pts/2    Ss     0:00  |   \_ -bash
+ 184172 pts/2    S+     0:00  |   |   \_ ssh sysadmin@10.0.180.195
+ 184591 pts/3    Ss     0:00  |   \_ -bash
+ 184627 pts/3    S+     0:00  |   |   \_ ssh -Y sysadmin@10.0.180.195
+ 216743 pts/4    Ss     0:00  |   \_ -bash
+ 216934 pts/4    R+     0:00  |       \_ ps axf
+ 181249 ?        Sl     3:14  \_ /home/mdilullo/.dropbox-dist/dropbox-lnx.x86_64-173.4.6706/dropbox
+   2649 ?        SLl    0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+  91670 ?        S      0:00  \_ /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+   4747 ?        Ss     0:00 /usr/sbin/uuidd --socket-activation
+ 149001 ?        Ss     0:22 /lib/systemd/systemd-resolved
+ 149024 ?        S<s    0:07 /lib/systemd/systemd-journald
+ 149710 ?        Ssl    0:00 /lib/systemd/systemd-timesyncd
+ 149761 ?        Ss     0:00 /lib/systemd/systemd-udevd
+ 150127 ?        Ss     2:06 /lib/systemd/systemd-oomd
+ 150644 ?        Ssl    0:13 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+ 151026 ?        Ss     0:04 /usr/sbin/apache2 -k start
+ 187496 ?        S      0:00  \_ /usr/sbin/apache2 -k start
+ 187497 ?        S      0:00  \_ /usr/sbin/apache2 -k start
+ 187498 ?        S      0:00  \_ /usr/sbin/apache2 -k start
+ 187499 ?        S      0:00  \_ /usr/sbin/apache2 -k start
+ 187500 ?        S      0:00  \_ /usr/sbin/apache2 -k start
+ 182267 ?        Sl     0:00 /usr/lib/NetworkManager/nm-openvpn-service --bus-name org.freedesktop.NetworkManager.openvpn.Connection_10
+ 182271 ?        S      0:17  \_ /usr/sbin/openvpn --remote openvpn.navigo.com.ar 1194 udp --explicit-exit-notify --ping 10 --ping-restart 120 --nobind --dev tun --cipher AES-256-CBC --auth SHA256 --auth-nocache --tls-auth /home/mdilullo/.cert/nm-openvpn/new-mdilullo-tls-auth.pem 1 --remote-cert-tls server --reneg-sec 0 --verb 1 --syslog nm-openvpn --script-security 2 --up /usr/lib/NetworkManager/nm-openvpn-service-openvpn-helper --debug 0 182267 --bus-name org.freedesktop.NetworkManager.openvpn.Connection_10 --tun -- --up-restart --persist-key --persist-tun --management /var/run/NetworkManager/nm-openvpn-5991b9da-ca52-4d3e-9600-0ccbb3f91b18 unix --management-client-user root --management-client-group root --management-query-passwords --auth-retry interact --route-noexec --ifconfig-noexec --client --ca /home/mdilullo/.cert/nm-openvpn/new-mdilullo-ca.pem --cert /home/mdilullo/.cert/nm-openvpn/new-mdilullo-cert.pem --key /home/mdilullo/.cert/nm-openvpn/new-mdilullo-key.pem --user nm-openvpn --group nm-openvpn --chroot /var/lib/openvpn/chroot
+ 187476 ?        Ss     0:00 /usr/sbin/cupsd -l
+ 187503 ?        Ssl    0:00 /usr/sbin/cups-browsed
